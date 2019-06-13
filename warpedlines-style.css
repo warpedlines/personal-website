@@ -1,0 +1,710 @@
+* {
+	
+    font-family: "Montserrat", "Roboto Condensed", sans-serif;
+	line-height: 150%;
+	letter-spacing: 2px;
+
+}        
+    
+body {
+                
+    height:100%;
+    background-color: #F0F0F0;
+    color: black;
+
+}
+
+[class*="col-"] {
+/* For mobile phones: */
+  width: 100%;
+      
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+}
+
+@media (min-width: 768px) {
+
+    #about-paragraph {top: -210px;}
+    
+}
+
+#wrap {
+  
+    width: 100%;
+    min-width: 900px;
+    max-width: 100px;
+    margin: auto;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    max-height: 800px;
+    padding-bottom: 20px;
+        
+}
+            
+h1 {
+          
+    position: relative;
+    margin-left: 0px;
+    top: -200px;
+    left: 315px;
+    -ms-transform: scale(0.4,0.4); 
+	-webkit-transform: scale(0.4,0.4);
+	transform: scale(0.4,0.4);
+    z-index: 2;
+    
+}
+
+h1: hover {
+    
+    cursor:pointer;
+    
+}
+
+h2 {
+    
+    margin-top: 100px;
+    margin-left: 480px;
+    
+}
+
+h3 {
+    
+    margin-top: 10px;
+    margin-left: 600px;
+    
+}
+
+h4 {
+    
+    margin-left: 600px;
+    float: left;
+    font-size: 130%;
+    
+}
+
+p#criticism-header {
+    
+    border-style: double;
+    border-width: 20px;
+    padding: 10px;
+    float: right;
+    position: relative;
+    top: 40px;
+    
+}
+
+p#criticism-links {
+    
+    cursor: pointer;
+    float: none;
+    
+}
+
+.align-left {
+    
+    text-align:left;
+    float:none;
+    
+}
+    
+p {
+
+    text-align: justify;
+    float: left;
+    cursor: default;
+    word-wrap: break-word;
+
+}
+
+p: hover {
+    
+    cursor: default;
+    
+}
+ 
+
+a {
+    text-decoration: none;
+    color: #4b4d51;
+                
+}
+            
+a:visited {
+                
+    color: black;
+                
+}
+
+a: hover {
+    
+    font-weight: bold;
+    font-size: 150%;
+        
+}
+            
+
+#error {
+    
+    position: absolute;
+    left: 300px;
+    top: 100px;
+
+}
+
+#website-request-prompt {
+    
+    position: absolute;
+    left: 22px;
+    top: 0px;
+    font-size: 120%;
+    
+}
+
+button {
+    border: none;
+    margin: 0;
+    text-decoration: none;
+/*
+    background: #000000;
+    color: #000000;
+*/
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    
+}
+
+#submit {
+    
+    left: -195px;
+    top: 113px;
+    position: absolute;
+    -ms-transform: scale(0.1,0.1); /* IE 9 */
+    -webkit-transform: scale(0.1,0.1); /* Safari */
+    transform: scale(0.11,0.1);
+    z-index: -2;
+    
+}
+
+#my-email {
+    
+    position: absolute;
+    left: 25px;
+    top: 390px;
+    
+}
+
+textarea {
+    
+    position: absolute;
+    left: 20px;
+    top: 88px;
+    width: 230px;
+    height: 230px;
+    background-color: white;
+    color: black;
+    font-size: 110%;
+    
+}
+
+textarea placeholder {
+    
+    display: show;
+        
+}
+
+.linkImages {
+    
+    width: 40px;
+    height: 40px;
+    margin: 2px;
+    border-radius: 16px;
+    
+}
+
+#instaImage {
+    
+    -ms-transform: scale(1.1, 1.1); 
+	-webkit-transform: scale(1.1,1.1);
+    transform: scale(1.1, 1.1);
+    
+}
+
+#contact-buttons {
+    
+    position: absolute;
+    left: 15px;
+    top: 330px;
+    
+}
+
+.auto {
+    
+    cursor: auto;
+    
+}
+
+.sprite {
+    width: 283px;
+    height: 283px;
+    position: absolute;
+    
+}
+
+.sprite:hover {
+    
+    cursor: pointer;
+    
+}
+
+#menu-work {
+  
+    background: transparent url("menu-sprite-5.png") no-repeat 0 0;
+    left: 0;
+    top: 0;
+    
+}
+
+#menu-word-scrambler {
+   
+    background: transparent url("menu-sprite-5.png") no-repeat -283px 0;      
+    left: 283px;
+    top: 0;
+    z-index: 3;
+    
+}
+
+#menu-about {
+    
+    background: transparent url("menu-sprite-5.png") no-repeat 0 -283px;
+    left: 0px;
+    top: 283px;
+
+}
+
+#menu-contact {
+    
+    background: transparent url("menu-sprite-5.png") no-repeat -283px -283px;
+    left: 283px;
+    top: 283px; 
+    
+}
+
+.content {
+    
+    display: none;
+    
+}
+
+#work-content {
+    
+    position: relative;
+    left: 300px;
+    top: -700px;
+    padding: 0 50 0 0;
+    width: 480px;
+    height: 300px;
+    
+}
+
+#about-paragraph {
+    
+    position: relative;
+    width: 75%;
+    text-align: justify;
+    padding-right: 50px;
+    z-index: 4;
+    left: -220px;
+    top: -170px;
+        
+}
+
+.work-nodes {
+    
+    position: relative;
+    display: none;
+    cursor: pointer;
+    
+}
+
+#visual-node {
+    
+    position: absolute;
+    height: auto;
+    top: -465px;
+    left: 75px;
+    -ms-transform: scale(0.55,0.55); 
+	-webkit-transform: scale(0.55,0.55);
+    transform: scale(0.55, 0.55);
+    z-index: -1;
+    
+}
+
+#audio-visual-node {
+    
+    position: absolute;
+    height: auto;
+    -ms-transform: scale(0.55,0.55); 
+	-webkit-transform: scale(0.55,0.55);
+    transform: scale(0.55, 0.55);
+    top: -300px;
+    left: 50px;
+    z-index: -2;
+    
+}
+
+#work-node {
+ 
+    background: transparent url("about-nodes.png") no-repeat; 
+    left: 65px;
+    top: -842px;
+    width: 350px;
+    height: 210px;
+    
+}
+
+#fiction-node {
+    
+    background: transparent url("about-nodes-fiction.png") no-repeat;
+    left: 79px;
+    top: -845px;
+    width: 80px;
+    height: 165px;
+    
+}
+
+.work-containers {
+    
+    position: relative;
+    width: 700px;
+    margin-top: 220px;
+    
+}
+
+#ember-text {
+    
+    padding-top: 20px;
+    position: absolute;
+    width: 780px;
+    height: auto;
+}
+
+#ember-text: after {
+    
+    content: none;
+    
+}
+
+#ember-nodes {
+    
+    background: transparent url("ember-nodes.png") no-repeat;
+    position: absolute;
+    width: 110px;
+    height: 300px;
+    left: 650px;
+    top: -83px;
+    
+}
+
+p#section-break {
+
+    font-size: 200%;
+    margin-left: 320px;
+    
+}
+
+#criticism-node {
+    
+    background: transparent url("about-nodes-criticism.png") no-repeat;
+    left: 144px;
+    top: -1015px;
+    height: 140px;
+    width: 123px;
+    
+}
+
+#criticism-container {
+    
+    position: absolute;
+    left: -60px;
+    top: -90px;
+    width: 750px;
+    height: 800px;
+    
+}
+
+#criticism-img {
+    
+    position: absolute;
+    cursor: default;
+    top: -585px;
+    left: -248px;
+    -ms-transform: scale(0.3,0.3); 
+	-webkit-transform: scale(0.3,0.3);
+    transform: scale(0.3, 0.3);
+    
+}
+
+#criticism-accordion {
+    
+    position: relative;
+    top: 50px;
+    
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    
+  font-size: 110%;
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+    
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+    
+  background-color: #ccc;
+    
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    
+  padding: 0 18px;
+  background-color: #f0f0f0;
+  display: none;
+  overflow: hidden;
+  cursor: default;
+    
+}
+
+#acker {
+    
+    width: 700px;
+    
+}
+
+#art-container {
+    
+    position: absolute;
+    margin-top: 205px;
+    
+}
+
+
+#graphics-sub-nodes: hover {
+    
+    cursor: pointer;
+    
+}
+
+#art-container-nodes {
+    
+    background: transparent url("art-container-nodes.png") no-repeat;
+    width: 415px;
+    height: 200px;
+    position: absolute;
+    left: 320px;
+    top: -180px;
+    
+}
+
+.art {
+    
+    width: 650px;
+    padding: 15px;
+    cursor: default;
+    
+}
+
+.animation {
+    
+    width: 620px;
+    height: 620px;
+    padding: 15px;
+    
+}
+
+#art-adjust {
+    
+    width:500px;
+    padding-left: 80px;
+    
+}
+
+p.art-titles {
+    
+    letter-spacing: 8px;
+    text-align: center;
+    float: none;
+    
+}
+
+#graphics-node {
+    
+    background: transparent url("about-nodes-graphics.png") no-repeat;
+    left: 147px;
+    top: -1174px;
+    width: 180px;
+    height: 60px;
+    
+}
+
+#trigger-node {
+    
+    display: inline;
+    font-weight: bold;
+    
+}
+
+#trigger-node:hover {
+    
+        -webkit-transform:rotateY(180deg);
+        -moz-transform:rotateY(180deg);
+        -o-transform:rotateY(180deg);
+        -ms-transform:rotateY(180deg);
+        unicode-bidi:bidi-override;
+        direction:rtl;         
+        filter: blur(2px);
+        -webkit-filter: blur(2px);
+        letter-spacing: 5px;
+        cursor: pointer;
+                    
+}
+
+#word-scrambler-content {
+    
+    position: absolute;
+    top:50px;
+    
+}
+
+#word-scrambler-intro {
+    
+    position:absolute;
+    width: 250px;
+    
+}
+
+#scramble-input {
+    
+    position: relative;
+    width: 350px;
+    height: 350px;
+    top: 360px;
+    padding: 10px;
+    z-index:3;
+    
+}
+
+#scramble-button img {
+    
+    width: 30%;
+    height: auto;
+    position: relative;
+    top: 320px;
+    left: -107px;
+    z-index: 3;
+    
+}
+
+#scramble-button {
+    
+    position: relative;
+    left: 10px;
+    top: 50px;
+    background: none;
+    
+}
+
+#scramble-output {
+    
+    position:absolute;
+    width: 350px;
+    height: 350px;
+    top: 360px;
+    left: 450px;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px;
+    z-index: 3
+    
+}
+
+#scramble-output-text {
+    
+    margin-top: 0;
+     object-fit: contain;
+    max-width: 350px;
+    max-height: 340px;
+    overflow: auto;
+    z-index: 3;
+    
+}
+
+.noSelect {
+    
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    
+}
+
+#scramble-animation {
+    
+    position: relative;
+    left: 278px;
+    top: -380px;
+    width: 56%;
+    z-index: 2;
+    
+    
+}
+
+#about-content {
+    
+    position: absolute;
+    top: 260px;
+    left: 300px;
+    
+}         
