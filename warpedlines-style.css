@@ -73,6 +73,17 @@ body {
     padding-bottom: 20px;
         
 }
+
+img,
+.entry img,
+img.thumbnail, 
+#portfolio .group.portfolio-img img {
+  border: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -o-box-shadow: none;
+  -webkit-box-shadow: none;
+}
             
 h1 {
           
@@ -84,6 +95,9 @@ h1 {
 	-webkit-transform: scale(0.4,0.4);
 	transform: scale(0.4,0.4);
     z-index: 2;
+    border-color: #f0f0f0;
+    image-rendering : -webkit-optimize-contrast;
+    image-rendering : optimizeQuality;
     
 }
 
@@ -97,6 +111,7 @@ h2 {
     
     margin-top: 100px;
     margin-left: 480px;
+    cursor: default;
     
 }
 
@@ -104,6 +119,7 @@ h3 {
     
     margin-top: 10px;
     margin-left: 600px;
+    cursor: default;
     
 }
 
@@ -174,6 +190,12 @@ a: hover {
     font-size: 150%;
         
 }
+
+ol {
+    
+    float:left;
+    
+}
             
 
 #error {
@@ -215,7 +237,7 @@ button {
     -ms-transform: scale(0.1,0.1); /* IE 9 */
     -webkit-transform: scale(0.1,0.1); /* Safari */
     transform: scale(0.11,0.1);
-    z-index: -2;
+    z-index: 0;
     
 }
 
@@ -420,6 +442,8 @@ textarea placeholder {
     position: absolute;
     width: 780px;
     height: auto;
+    cursor: default;
+    
 }
 
 #ember-text: after {
@@ -436,6 +460,15 @@ textarea placeholder {
     height: 300px;
     left: 650px;
     top: -83px;
+    
+}
+
+#ember-intro {
+    
+    margin-top: 200px;
+    float: left;
+    font-style: italic;
+    cursor: default;
     
 }
 
@@ -554,6 +587,16 @@ p#section-break {
     width: 650px;
     padding: 15px;
     cursor: default;
+    
+}
+
+.img-shrink {
+    
+    width:300px;
+    float:left;
+    margin-left: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     
 }
 
@@ -692,12 +735,14 @@ p.art-titles {
 
 #scramble-animation {
     
+    image-rendering : -webkit-optimize-contrast;
+    image-rendering : optimizeQuality;
     position: relative;
     left: 278px;
     top: -380px;
     width: 56%;
     z-index: 2;
-    
+    border-color: #f0f0f0;
     
 }
 

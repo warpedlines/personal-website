@@ -50,6 +50,7 @@ $("#work-node").click(function() {
 
 $("#fiction-node").click(function() {
                 
+    $("#ember-intro").fadeIn(500);
     $("#ember-text").fadeIn(500);
     $("#ember-nodes").fadeIn(500);
     $("#criticism-container").fadeOut(500);
@@ -62,6 +63,7 @@ $("#criticism-node").click(function() {
     $("#criticism-container").fadeIn(500);
     $("#ember-text").fadeOut(500);
     $("#ember-nodes").fadeOut(500);
+    $("#ember-intro").fadeOut(500);
     $("#art-container").fadeOut(500);
                 
 });   
@@ -72,6 +74,7 @@ $("#graphics-node").click(function() {
     $("#art-container-nodes").fadeIn(500);
     $("#ember-text").fadeOut(500);
     $("#ember-nodes").fadeOut(500); 
+    $("#ember-intro").fadeOut(500);
     $("#criticism-container").fadeOut(500);
 
 });
@@ -292,13 +295,12 @@ $("#submit").click(function() {
     var errorTxt = "";
     var hasInputError = false;
     var userInput = $("#user-input").val();
-    console.log("user input = ",userInput);
+    console.log("user-input = ",userInput);
 
     $.ajax({
         
         type: 'POST',
         url: 'submit.php',
-        //data: 'userInput',
         data: 'user_input'+"="+userInput,
         cache: 'false',
         beforeSend: function(){
@@ -348,7 +350,8 @@ $("#submit").click(function() {
     return false;
     
 });
-
+    
+    
 // Accordion for "work" page.
 
 var acc = document.getElementsByClassName("accordion");
